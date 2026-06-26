@@ -1,0 +1,6 @@
+# Archivos a omitir en el repositorio
+Nuevo Documento de texto.txt
+*.tmp
+
+# Carpetasa a omitir en el ropositorio 
+/temp
