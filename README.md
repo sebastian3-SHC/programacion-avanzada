@@ -10,7 +10,7 @@
 
 **Universidad:** UPAEP
 
-**Periodo:** Otoño 2026
+**Periodo:** Verano 2026
 
 ---
 
@@ -379,7 +379,7 @@ Materia: **Programación Avanzada**
 
 Universidad Popular Autónoma del Estado de Puebla (UPAEP)
 
-Periodo: **Otoño 2026**
+Periodo: **Verano 2026**
 
 ---
 
