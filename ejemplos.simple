@@ -1,0 +1,87 @@
+1.Introducir tres enteros, determiner su media e imprimir el resultado
+10 input a
+20 input b
+30 input c
+40 let suma = a + b + c
+50 let media = suma / 3
+60 print media
+70 end
+2.Usar un ciclo controlado por variable para introducir 10 enteros y calcular e imprimir su sumatoria
+10 let suma = 0
+20 let i = 1
+30 input n
+40 let suma = suma + n
+50 let i = i + 1
+60 if i <= 10 goto 30
+70 print suma
+80 end
+3.Usar un ciclo controlado por contador para introducir siete enteros, algunos positivos y algunos negativos y calcular e imprimir su media 
+10 let suma = 0
+20 let contador = 1
+30 input n
+40 let suma = suma + n
+50 let contador = contador + 1
+60 if contador <= 7 goto 30
+70 let media = suma / 7
+80 print media
+90 end
+4.Introducir una serie de enteros y determinar e imprimir el mayor. El primer entero introducido indicacra cuantos numeros habra que procesar
+10 input cantidad
+20 input mayor
+30 let contador = 2
+40 if contador > cantidad goto 90
+50 input n
+60 if n > mayor goto 80
+70 goto 85
+80 let mayor = n
+85 let contador = contador + 1
+86 goto 40
+90 print mayor
+100 end
+5.Introducir 10 enteros e imprimir el mas pequeño
+10 input menor
+20 let contador = 2
+30 if contador > 10 goto 80
+40 input n
+50 if n < menor goto 70
+60 goto 75
+70 let menor = n
+75 let contador = contador + 1
+76 goto 30
+80 print menor
+90 end
+6.Calcular e imprimir la suma de los enteros pares del 2 al 30
+10 let suma = 0
+20 let n = 2
+30 let suma = suma + n
+40 let n = n + 2
+50 if n <= 30 goto 30
+60 print suma
+70 end
+7.Calcular e imprimir el producto de los enteros impares del 1 al 9
+10 let producto = 1
+20 let n = 1
+30 let producto = producto * n
+40 let n = n + 2
+50 if n <= 9 goto 30
+60 print producto
+70 end
+8.Calcular el area de un triangulo ingresando su base y altura por el usario 
+10 input base
+20 input altura
+30 let area = base * altura / 2
+40 print area
+50 end
+9.Convertir grdos Celcius a Farenheit ingresando la temperatura en grados Celcius por el usuario
+10 input c
+20 let f = c * 9 / 5 + 32
+30 print f
+40 end
+10.Crear un programa que solicite al usario su numero y muestre su tabla de multiplicar
+10 input n
+20 let i = 1
+30 let r = n * i
+40 print r
+50 let i = i + 1
+60 if i <= 10 goto 30
+70 end
